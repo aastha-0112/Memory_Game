@@ -1,0 +1,48 @@
+html {
+    /* background-color: rgb(8, 81, 81); */
+    /* background-image: linear-gradient(to right, white, gray); */
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #2305AB);
+    background-size: 400% 400%;
+    animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.title {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    color: yellow;
+}
+
+#head {
+    margin-left: 550px;
+    margin-top: 150px;
+    color: black;
+}
+
+.ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+}
