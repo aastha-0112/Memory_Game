@@ -1,0 +1,28 @@
+* {
+    background-color: rgb(8, 81, 81);
+    /* margin-left: 50px; */
+    /* padding: 10px; */
+}
+
+.title {
+    margin-left: 620px;
+    margin-top: 50px;
+    align-items: center;
+    color: yellow;
+}
+
+#head {
+    margin-left: 550px;
+    margin-top: 150px;
+    color: rgb(57, 220, 117);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+    margin-left: 550px;
+    align-items: center;
+    /* margin-top: 150px; */
+}
